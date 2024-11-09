@@ -9,3 +9,5 @@
     );
 
 echo "Bulan: $bulan[$angka]";
+// output:
+// Bulan: Maret

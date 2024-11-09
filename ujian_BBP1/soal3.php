@@ -20,3 +20,7 @@
 
 echo "bilangan genap ada $jumlahGenap: $resultGenap <br>";
 echo "bilangan ganjil ada $jumlahGanjil: $resultGanjil <br>";
+
+// output:
+// bilangan genap ada 11: 10,12,14,16,18,20,22,24,26,28,30,
+// bilangan ganjil ada 10: 11,13,15,17,19,21,23,25,27,29,
