@@ -5,7 +5,7 @@
         }
     }
 
-    class Televisi extends produk {
+    class Televisi extends Produk {
         public function hello () {
             echo "Ini dari Televisi";
         }

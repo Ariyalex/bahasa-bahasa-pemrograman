@@ -7,7 +7,7 @@ class Produk {
     }
 }
 
-$produk01 = new produk();
+$produk01 = new Produk();
 
 $produk01->merek = "Asus"; // Error: Cannot access protected property Produk::$merek
 

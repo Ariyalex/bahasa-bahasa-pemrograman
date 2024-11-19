@@ -1,5 +1,5 @@
 <?php
-    class produk {
+    class Produk {
         public function __construct() {
             echo "Constructor dijalankan... <br>";
         }
@@ -9,5 +9,5 @@
         }
     }
 
-    $produk01 = new produk();
-    $produk02 = new produk();
+    $produk01 = new Produk();
+    $produk02 = new Produk();

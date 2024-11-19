@@ -5,5 +5,5 @@
         }
     }
 
-    class Televisi extends produk {
+    class Televisi extends Produk {
     }

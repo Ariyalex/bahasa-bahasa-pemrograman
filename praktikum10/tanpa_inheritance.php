@@ -1,5 +1,5 @@
 <?php
-    class produk {
+    class Produk {
         public $merek = "Sharp";
         public $stok = 50;
 
@@ -8,7 +8,7 @@
         }
     }
 
-    $produk01 = new produk();
+    $produk01 = new Produk();
     echo $produk01->merek;
     echo "<br>";
     echo $produk01->cekStok();

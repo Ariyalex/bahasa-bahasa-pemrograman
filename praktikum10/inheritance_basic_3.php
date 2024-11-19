@@ -1,5 +1,5 @@
 <?php
-    class produk {
+    class Produk {
         public $merek = "Sharp";
         public $stok = 50;
 
@@ -8,7 +8,7 @@
         }
     }
 
-    class Televisi extends produk {
+    class Televisi extends Produk {
         public $jenis = "Televisi";
 
         public function cekStokTelevisi() {

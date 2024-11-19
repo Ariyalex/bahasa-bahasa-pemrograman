@@ -7,7 +7,7 @@
         }
     }
 
-    $produk01 = new produk();
+    $produk01 = new Produk();
     $produk01->merek = "Asus"; // Error: Cannot access private property Produk::$merek
 
     echo $produk01->merek; // Error: Cannot access private property Produk::$merek

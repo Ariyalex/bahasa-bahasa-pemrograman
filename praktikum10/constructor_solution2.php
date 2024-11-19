@@ -1,5 +1,5 @@
 <?php
-    class produk {
+    class Produk {
         public $jenis;
         public $merek;
         public $stok;
@@ -11,8 +11,8 @@
         }
     }
 
-    $produk01 = new produk("Televisi", "Samsung", 20);
-    $produk02 = new produk("Mesin Cuci", "LG", 10);
+    $produk01 = new Produk("Televisi", "Samsung", 20);
+    $produk02 = new Produk("Mesin Cuci", "LG", 10);
 
 
 
